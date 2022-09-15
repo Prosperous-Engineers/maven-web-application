@@ -91,13 +91,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>art-release-repo</name>
-	      <url>http://67.202.56.99:8081/repository/art-release-repo/</url>
+	      <url>http://http://54.183.122.151:8081/repository/tesla-fe-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>art-snapshot-repo</name>
-	      <url>http://67.202.56.99:8081/repository/art-snapshot-repo/</url>
+	      <url>http://http://54.183.122.151:8081/repository/tesla-fe-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
