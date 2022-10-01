@@ -103,7 +103,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>Yemi-app</finalName>
 		
 		<plugins>
 			<plugin>
