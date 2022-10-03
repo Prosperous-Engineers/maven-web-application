@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.1</version> 
+	<version>0.0.4</version> 
 	
 	<name>maven-web-application</name>
 
@@ -22,9 +22,11 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.215.116.95:9000/</sonar.host.url>
-		<sonar.login>53bc6b4f7f84c812abbb6b49a8317c40bf63a104</sonar.login>
-		<!--<sonar.password>admin</sonar.password> -->
+
+		<sonar.host.url>http://172.31.17.43:9000/</sonar.host.url>
+		<sonar.login>125d14665eb5548f001bae7935ee45d8f684f6ac</sonar.login>
+	  <!--  <sonar.password>admin</sonar.password>  -->
+
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -90,20 +92,25 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>art-release-repo</name>
-	      <url>http://54.183.221.230:8081/repository/tesla-fe-releases/</url>
+
+
+	      <name>release-repository</name>
+	      <url>http://52.205.255.235:8081/repository/release-repository/</url>
+
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>art-snapshot-repo</name>
-	      <url>http://54.183.221.230:8081/repository/tesla-fe-snapshot/</url>
+
+	      <name>snapshot-repository</name>
+	      <url>http://52.205.255.235:8081/repository/snapshot-repository/</url>
+
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>mytec-app</finalName>
 		
 		<plugins>
 			<plugin>
